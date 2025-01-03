@@ -1,3 +1,6 @@
 # virtual environment
 .venv
 *__pycache__/
+
+# mac config
+.DS_Store
