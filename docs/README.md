@@ -20,5 +20,7 @@ These docs contain information needed for analysis.
 ## 🛰️ Explore A Database <a name = "explore"></a>
 Method to gather various information of a database.
 
+You can simply go to [sqlite viewer](https://inloop.github.io/sqlite-viewer/) to get a overview of a database. 
+
 ## 💽 Analyze A Database <a name = "analyze"></a>
 Attributes to be analyzed. 
