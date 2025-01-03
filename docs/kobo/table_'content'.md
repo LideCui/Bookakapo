@@ -183,4 +183,10 @@
 ---
 
 ## Notes
-[Additional notes or observations about the table]
+In the content, individual book is divided into different volumns (usually by chapters). 
+
+'___PercentRead', 'FirstTimeReading'
+
+It seems that the reader creates a seperate content entry for each book that is being read. And this entry can link to specific volumn. 
+
+For example, you can refer [comparasion](./exported_content_db.csv) for the difference. The contentType is different. The meta-book is 6 and the volumn is 9. So from now on, we only use data with ContentType=6. 
