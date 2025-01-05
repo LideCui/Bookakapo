@@ -13,7 +13,7 @@ class Kobo:
 
         # Query
         cursor.execute('''
-            SELECT * FROM 'content' WHERE ContentType=6
+            SELECT Title,Attribution,___PercentRead,___FileSize,NumShortcovers FROM 'content' WHERE ContentType=6
         ''')
         rows = cursor.fetchall()
 
