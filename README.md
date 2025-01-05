@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This project is intend to manage my ebooks in media. For now, I will focus on kobo reader that I use the most.  
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -42,23 +42,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
+Clone the reqo to your local machine
+ ```
+pip install -r requirements.txt
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Build Backend
 
 ```
-Give the example
+flask run
 ```
 
-And repeat
+Build Frontend
 
 ```
 until finished
@@ -96,10 +93,7 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Flask](https://flask.palletsprojects.com/en/stable/) - Server Framework
 
 ## ✍️ Authors <a name = "authors"></a>
 
